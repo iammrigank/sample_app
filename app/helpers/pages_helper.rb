@@ -11,4 +11,7 @@ module PagesHelper
 		end
 	end
 
+	def logo
+		image_tag("logo.jpg", :alt=>"SampleAPP!", :class=>"round")
+	end
 end
