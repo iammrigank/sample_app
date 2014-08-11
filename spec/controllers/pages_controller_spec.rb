@@ -8,6 +8,7 @@ describe PagesController do
     @base_title = "Rails SampleApp"
   end
 
+  # check home page works fine: (load, title, blank_body)->OK
   describe "GET 'home'" do
     it "returns http success" do
       get 'home'
@@ -25,6 +26,7 @@ describe PagesController do
     end
   end
 
+  # check contact page works fine: (load, title, blank_body)->OK
   describe "GET 'contact'" do
     it "returns http success" do
       get 'contact'
@@ -37,6 +39,7 @@ describe PagesController do
     end
   end
 
+  # check about page works fine: (load, title, blank_body)->OK
   describe "GET 'about'" do
     it "returns http success" do
       get 'about'
@@ -49,6 +52,7 @@ describe PagesController do
     end
   end
 
+  # check help page works fine: (load, title, blank_body)->OK
   describe "GET 'help'" do
     it "returns http success" do
       get 'help'
